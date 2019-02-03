@@ -1,0 +1,8 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+build:
+  verbosity: minimal
+artifacts:
+- path: \projects\uwp2\UWPDumper-master\x64\Debug\UWPInjector.exe
+  name: UWPDumper-master
+  
